@@ -56,13 +56,6 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              to="/contact"
-              className="ml-4 px-4 py-2 rounded-lg text-sm font-semibold text-accent-foreground transition-all hover:opacity-90 active:scale-95"
-              style={{ background: "var(--gradient-amber)" }}
-            >
-              무료 상담 신청
-            </Link>
           </div>
 
           {/* Mobile toggle */}
@@ -92,13 +85,6 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              to="/contact"
-              className="block mt-2 px-4 py-2 rounded-lg text-sm font-semibold text-center text-accent-foreground"
-              style={{ background: "var(--gradient-amber)" }}
-            >
-              무료 상담 신청
-            </Link>
           </div>
         </div>
       )}
