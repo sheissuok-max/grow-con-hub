@@ -121,7 +121,7 @@ export default function Contact() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-semibold text-foreground mb-2">업체명 (선택)</label>
+                <label className="block text-sm font-semibold text-foreground mb-2">기관명 또는 업체명 (선택)</label>
                 <input
                   className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent/30"
                   placeholder="매장명 또는 업체명"
