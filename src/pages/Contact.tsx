@@ -56,7 +56,7 @@ export default function Contact() {
             <h2 className="text-xl font-bold text-foreground">연락처 정보</h2>
             <div className="space-y-4">
               {[
-                { icon: <Phone size={18} />, title: "전화 상담", value: "010-0000-0000", sub: "평일 09:00 - 18:00" },
+                { icon: <Phone size={18} />, title: "전화 상담", value: "010-3014-4119", sub: "평일 09:00 - 18:00" },
                 { icon: <Mail size={18} />, title: "이메일 문의", value: "contact@growconlab.kr", sub: "24시간 접수 가능" },
                 { icon: <MessageSquare size={18} />, title: "카카오 채널", value: "@growconlab", sub: "빠른 답변" },
               ].map((c) => (
