@@ -58,7 +58,6 @@ export default function Contact() {
               {[
                 { icon: <Phone size={18} />, title: "전화 상담", value: "010-3014-4119", sub: "평일 09:00 - 18:00" },
                 { icon: <Mail size={18} />, title: "이메일 문의", value: "contact@growconlab.kr", sub: "24시간 접수 가능" },
-                { icon: <MessageSquare size={18} />, title: "카카오 채널", value: "@growconlab", sub: "빠른 답변" },
               ].map((c) => (
                 <div key={c.title} className="flex items-start gap-4 p-4 rounded-2xl border border-border bg-card">
                   <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 text-accent-foreground" style={{ background: "var(--gradient-amber)" }}>
