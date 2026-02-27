@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "홈", href: "/" },
@@ -34,11 +35,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: "var(--gradient-amber)" }}>
-              <span className="text-primary-foreground font-bold text-sm">G</span>
-            </div>
-            <span className="font-bold text-lg text-primary-foreground">GrowConLab</span>
+          <Link to="/" className="flex items-center group">
+            <img src={logo} alt="Grow Consulting Lab" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
