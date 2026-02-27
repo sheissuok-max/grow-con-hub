@@ -44,7 +44,7 @@ function HeroSection() {
         </div>
 
         {/* Stats */}
-        <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg">
+        <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg hidden">
           {[
             { value: "500+", label: "수강생" },
             { value: "92%", label: "창업 성공률" },
